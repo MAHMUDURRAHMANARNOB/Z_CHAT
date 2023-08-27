@@ -5,6 +5,7 @@ import 'package:z_chat/screens/login_screen.dart';
 import 'package:z_chat/screens/registration_screen.dart';
 
 class WelcomeScreen extends StatefulWidget {
+  static const String id = "welcome_screen";
   @override
   _WelcomeScreenState createState() => _WelcomeScreenState();
 }

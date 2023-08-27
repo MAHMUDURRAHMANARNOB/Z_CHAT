@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:z_chat/screens/chat_screen.dart';
 
 class LoginScreen extends StatefulWidget {
+  static const String id = "login_screen";
   @override
   _LoginScreenState createState() => _LoginScreenState();
 }
