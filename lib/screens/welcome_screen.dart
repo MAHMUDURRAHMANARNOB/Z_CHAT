@@ -24,9 +24,12 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                SizedBox(
-                  height: 50.0,
-                  child: Image.asset('assets/images/z_chat.png'),
+                Hero(
+                  tag: 'logo',
+                  child: SizedBox(
+                    height: 40.0,
+                    child: Image.asset('assets/images/z_chat.png'),
+                  ),
                 ),
                 SizedBox(width: 8),
                 Text(

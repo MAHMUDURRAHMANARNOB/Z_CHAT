@@ -21,9 +21,12 @@ class _LoginScreenState extends State<LoginScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
-            SizedBox(
-              height: 200.0,
-              child: Image.asset('assets/images/z_chat.png'),
+            Hero(
+              tag: 'logo',
+              child: SizedBox(
+                height: 200.0,
+                child: Image.asset('assets/images/z_chat.png'),
+              ),
             ),
             SizedBox(
               height: 48.0,
